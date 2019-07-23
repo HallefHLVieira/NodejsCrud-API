@@ -13,7 +13,7 @@
 To install the docker follow the step-by-step described here: https://docs.docker.com/install/linux/docker-ce/debian/
 
 With the docker installed, run:
-(docker pull mongo) to download mongo's iamge container
+(docker pull mongo) to download mongo's image container
 
 - then run:
 > (docker run --name (name for your container) -p 27017: 27017 mongo) to raise the container with the successful access set ports of the image name you want to run.
@@ -44,7 +44,7 @@ Para realização desse exemplo é preciso intalar:
 * Para instalar o docker siga o passo-a-passo descrito aqui: https://docs.docker.com/install/linux/docker-ce/debian/
 
 - Com o docker instalado, execute:
-> ( docker pull mongo ) para baixar o container com iamgem do mongo
+> ( docker pull mongo ) para baixar o container com imagem do mongo
 
 - em seguida:
 > (docker run --name (nome para seu container) -p 27017:27017 mongo ) para subir o container com as portas setadas de acesso sucedido do nome da imagem que você quer rodar.
