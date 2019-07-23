@@ -5,12 +5,13 @@
 
 - This is an example of a crud made during my study of two technologies: nodejs and mongodb.
 
-To perform this example you must install:
-1 - Nodejs >> I recommend installing the latest stable version available at: https://nodejs.org/en/, there you can download the package or choose to follow the installation via terminal using the repositories of your linux distribution itself.
+- To perform this example you must install:
 
-2 - MongoDB >> If you already have mogodb installed on your machine, I don't need to reinstall, if you don't already have it, I recommend using docker, as it becomes more practical to upload a container with the image of mongo and it will not affect your physical machine.
+> Nodejs >> I recommend installing the latest stable version available at: https://nodejs.org/en/, there you can download the package or choose to follow the installation via terminal using the repositories of your linux distribution itself.
 
-To install the docker follow the step-by-step described here: https://docs.docker.com/install/linux/docker-ce/debian/
+> MongoDB >> If you already have mogodb installed on your machine, I don't need to reinstall, if you don't already have it, I recommend using docker, as it becomes more practical to upload a container with the image of mongo and it will not affect your physical machine.
+
+* To install the docker follow the step-by-step described here: https://docs.docker.com/install/linux/docker-ce/debian/
 
 With the docker installed, run:
 (docker pull mongo) to download mongo's iamge container
