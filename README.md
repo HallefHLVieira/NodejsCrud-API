@@ -27,7 +27,7 @@ With the docker installed, run:
 
 If you have any questions, you can contact: hallef.vieira@hotmail.com
 
-==================================================================================================
+=============================================================================================
 
 # Crud com NodeJS and MongoDB (Br)
 Estudando tecnologias
