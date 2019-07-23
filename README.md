@@ -1,4 +1,4 @@
-# Crud with NodeJS and MongoDB (En)
+# API for Crud with NodeJS and MongoDB (En)
 * Studying technologies
 
  Hello! Welcome to my nodejs crud example!
@@ -29,7 +29,7 @@ If you have any questions, you can contact: hallef.vieira@hotmail.com
 
 =============================================================================================
 
-# Crud com NodeJS and MongoDB (Br)
+# API para Crud com NodeJS and MongoDB (Br)
 Estudando tecnologias
 
 Olá! Seja bem vindo a meu exemplo de crud com nodejs!
