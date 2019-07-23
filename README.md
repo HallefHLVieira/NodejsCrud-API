@@ -1,4 +1,4 @@
-# crudNodejs
+# Crud with NodeJS and MongoDB
 Studying technologies
 
 Hello! Welcome to my nodejs crud example!
