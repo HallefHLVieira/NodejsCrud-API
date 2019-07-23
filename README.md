@@ -26,6 +26,7 @@ With the docker installed, run:
 - For database data visualization, among the various visualization forms, I recommend using robo3t.
 
 If you have any questions, you can contact: hallef.vieira@hotmail.com
+
 ==================================================================================================================
 
 # Crud com NodeJS and MongoDB (Br)
@@ -40,20 +41,18 @@ Para realização desse exemplo é preciso intalar:
 
 2 - MongoDB >> Se você já estiver com o mogodb instalado em sua máquina, não preciso reinstalar, caso ainda não tenha, eu recomendo usar docker, pois se torna mais prático subir um container com a imagem do mongo e não afetará em nada sua máquina física.
 
-Para instalar o docker siga o passo-a-passo descrito aqui: https://docs.docker.com/install/linux/docker-ce/debian/
+* Para instalar o docker siga o passo-a-passo descrito aqui: https://docs.docker.com/install/linux/docker-ce/debian/
 
-Com o docker instalado, execute:
-( docker pull mongo ) para baixar o container com iamgem do mongo
+- Com o docker instalado, execute:
+> ( docker pull mongo ) para baixar o container com iamgem do mongo
 
-em seguida:
-
-(docker run --name (nome para seu container) -p 27017:27017 mongo ) para subir o container com as portas setadas de acesso sucedido do nome da imagem que você quer rodar.
+- em seguida:
+> (docker run --name (nome para seu container) -p 27017:27017 mongo ) para subir o container com as portas setadas de acesso sucedido do nome da imagem que você quer rodar.
 
 Se quiser testar o container execute:
+> ( sudo docker ps ) para ver se o container está sendo utilizado.
 
-( sudo docker ps ) para ver se o container está sendo utilizado.
-
-Feito isso, o ambiente está configurado para o desenvolvimento.
+- Feito isso, o ambiente está configurado para o desenvolvimento.
 Para visualização de dados do banco, dentre as várias formas de visualização, eu recomendo o uso do robo3t.
 
 qualquer dúvida, pode entrar em contato: hallef.vieira@hotmail.com
