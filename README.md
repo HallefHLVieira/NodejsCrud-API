@@ -1,7 +1,7 @@
 # Crud with NodeJS and MongoDB (En)
-# Studying technologies
+* Studying technologies
 
-# Hello! Welcome to my nodejs crud example!
+ Hello! Welcome to my nodejs crud example!
 
 - This is an example of a crud made during my study of two technologies: nodejs and mongodb.
 
