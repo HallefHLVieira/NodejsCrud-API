@@ -1,7 +1,7 @@
 // Importando dependências necessárias
 // Importing required dependencies 
 const mongoose = require('mongoose');
-const Product = mongoose.model('Product');
+const Contact = mongoose.model('Contact');
 
 // Conection values for routes
 // Conexão das rotas com as devidas funções
@@ -9,29 +9,29 @@ module.exports = {
     // To list
     async index(req,res){
         const { page = 1} = req.query;
-        const products = await Product.paginate({},{ page, limit: 10 });
-        return res.json(products);
+        const contacts = await Contact.paginate({},{ page, limit: 10 });
+        return res.json(contacts);
     },
     // To list
     async show(req,res){
-        const product = await Product.findById(req.params.id);
-        return res.json(product);
+        const contact = await Product.findById(req.params.id);
+        return res.json(contact);
     },
     // To save
     async store(req,res){
-        const product = await Product.create(req.body);
-        return res.json(product);
+        const contact = await Contact.create(req.body);
+        return res.json(contact);
     },
     // To update
     async update(req,res){
-        const product = await Product.findByIdAndUpdate(req.params.id, req.body, {
+        const contact = await Contact.findByIdAndUpdate(req.params.id, req.body, {
             new:true
         });
-        return res.json(product);
+        return res.json(contact);
     },
     // To delete
     async destroy(req,res){
-        await Product.findByIdAndRemove(req.params.id);
+        await Contact.findByIdAndRemove(req.params.id);
         return res.send();
     }
 };
