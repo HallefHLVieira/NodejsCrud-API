@@ -5,7 +5,7 @@ const mongoosePaginate = require('mongoose-paginate');
 
 // To Define my table of object with your atributes and your types
 // Definir minha tablea de objetos com seus atributos e seus tipos
-const ProductSchema = new mongoose.Schema({
+const ContactSchema = new mongoose.Schema({
     firstName:{
         type: String,
         required: true,
@@ -34,8 +34,8 @@ const ProductSchema = new mongoose.Schema({
 });
 // Apply pagination
 // Atribuindo paginação
-ProductSchema.plugin(mongoosePaginate);
+ContactSchema.plugin(mongoosePaginate);
 
 // To define model
 // Definindo o modelo
-mongoose.model('Product',ProductSchema);
+mongoose.model('Contact',ContactSchema);
