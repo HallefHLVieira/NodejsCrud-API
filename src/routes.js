@@ -5,30 +5,30 @@ const routes = express.Router();
 
 // Importation of the controller
 // Importação do controlador
-const ProductController = require ('./controllers/ProductController');
+const ContactController = require ('./controllers/ContactController');
 
 // My routes for operation crud
 // Minhas rotas para funcionamento do crud
 
 // To list all objects
 // Listar todos os objetos
-routes.get("/products", ProductController.index);
+routes.get("/contacts", ContactController.index);
 
 // To list object through of id
 // Para listar um objeto pelo id
-routes.get("/products/:id", ProductController.show);
+routes.get("/contacts/:id", ContactController.show);
 
 // To save one object
 // Para salvar um objeto
-routes.post("/products", ProductController.store);
+routes.post("/contacts", ContactController.store);
 
 // To update one object trough of id
 // Para atualizar um objeto pelo id
-routes.put("/products/:id", ProductController.update);
+routes.put("/contacts/:id", ContactController.update);
 
 // To delete one object selected
 // To deletar obejto escolhido
-routes.delete("/products/:id", ProductController.destroy);
+routes.delete("/contacts/:id", ContactController.destroy);
 
 // Exports my routes
 // Exportando minhas rotas
