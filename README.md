@@ -15,19 +15,19 @@ To install the docker follow the step-by-step described here: https://docs.docke
 With the docker installed, run:
 (docker pull mongo) to download mongo's iamge container
 
-- then:
+- then run:
+> (docker run --name (name for your container) -p 27017: 27017 mongo) to raise the container with the successful access set ports of the image name you want to run.
 
-(docker run --name (name for your container) -p 27017: 27017 mongo) to raise the container with the successful access set ports of the image name you want to run.
+- If you want to test the container run:
 
-If you want to test the container run:
+> (sudo docker ps) to see if the container is being used.
 
-(sudo docker ps) to see if the container is being used.
-
-That done, the environment is set for development.
-For database data visualization, among the various visualization forms, I recommend using robo3t.
+- That done, the environment is set for development.
+- For database data visualization, among the various visualization forms, I recommend using robo3t.
 
 If you have any questions, you can contact: hallef.vieira@hotmail.com
 ==================================================================================================================
+
 # Crud com NodeJS and MongoDB (Br)
 Estudando tecnologias
 
